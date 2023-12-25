@@ -12,10 +12,7 @@ public class Gen3 {
  // setting numMin as the smallest number
  int numMin = Math.min(Math.min(num1, num2), num3);
  
- // printing the three numbers one line under the next and
- System.out.println(num1);
- System.out.println(num2);
- System.out.println(num3);
- System.out.println("The minimal generated number was " + numMin);
+ // printing numMin
+ System.out.println(numMin);
  }
 }
