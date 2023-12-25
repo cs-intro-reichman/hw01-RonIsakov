@@ -1,4 +1,4 @@
-public class Gen3 {
+public class GenThree {
  public static void main(String[] args) {
  // inserting range limA as the smallest limB as the greatest
  int limA = Integer.parseInt(args[0]);
