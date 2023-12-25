@@ -1,8 +1,8 @@
 public class Gen3 {
  public static void main(String[] args) {
- // defining range limA as the smallest limB as the greatest
- int limA = 10;
- int limB = 30;
+ // inserting range limA as the smallest limB as the greatest
+ int limA = Integer.parseInt(args[0]);
+ int limB = Integer.parseInt(args[1]);
  
  // setting three ints as random in the range defined
  int num1 = (int) (Math.random() * (limB - limA ) + limA);
