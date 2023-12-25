@@ -2,9 +2,9 @@ public class Triangle {
  public static void main(String[] args) {
 	 
  // Defining three sides as ints to the triangle
- int side1 = 3;
- int side2 = 4;
- int side3 = 5;
+ int side1 = Integer.parseInt(args[0]);
+ int side2 = Integer.parseInt(args[1]);
+ int side3 = Integer.parseInt(args[2]);
  
  // Checking which side is the longest and defining it as an int
  // Defining the rest as the sum of the two smallest sides
